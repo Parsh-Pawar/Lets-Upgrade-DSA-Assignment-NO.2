@@ -1,0 +1,15 @@
+Find the time complexity T(n) of the following code snippet:
+
+a = 1
+b = 1
+while(b <= n)
+{
+    a += 1;
+    b += a;
+    printf("Hi LetsUpgraders");
+}
+
+ANSWER:
+
+Here while loop will run n times which is not assigned.
+Therefore Time Complexity T(n)= O(n).
